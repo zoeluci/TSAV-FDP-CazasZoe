@@ -5,19 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void goToMainScene()
+    public void goToPrototype()
     {
         SceneManager.LoadScene(1);
     }
 
-    public void goToTerrainScene()
+    public void goToMainSceneFinal()
     {
         SceneManager.LoadScene(2);
-    }
-
-    public void goToProBuilderScene()
-    {
-        SceneManager.LoadScene(3);
     }
 
     public bool pauseOn;

@@ -7,17 +7,23 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: 
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 6b6def5f5f9c62d4ca0e0a2f00796b0e
-  - enabled: 1
-    path: Assets/Scenes/MainScene.unity
+  - enabled: 0
+    path: Assets/Scenes/Parcial/MainScene.unity
     guid: 721322281caf76d49a04b1a76ef8825e
-  - enabled: 1
-    path: Assets/Scenes/Terrain.unity
+  - enabled: 0
+    path: Assets/Scenes/Parcial/Terrain.unity
     guid: dcd2870ce9de901419dccc0e2fec04de
-  - enabled: 1
-    path: Assets/Scenes/Probuilder.unity
+  - enabled: 0
+    path: Assets/Scenes/Parcial/Probuilder.unity
     guid: 4e05be80bf746ec478802caa92ea285e
+  - enabled: 1
+    path: Assets/Scenes/Final/Prototype.unity
+    guid: 53151ec8cc0e96a42bd9f659897e2767
+  - enabled: 1
+    path: Assets/Scenes/Final/MainSceneFinal.unity
+    guid: bd7f0940c30ba1248bf3f1faef56c4be
   m_configObjects: {}

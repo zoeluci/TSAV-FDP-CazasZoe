@@ -35,9 +35,8 @@ public class DummyMovement : MonoBehaviour
         move = Vector3.ClampMagnitude(move, 1);
         float magnitude = move.magnitude;
         animator.SetFloat("Magnitude", magnitude);
-
-        animator.SetFloat("Horizontal", move.x);
-        animator.SetFloat("Vertical", move.z);
+        animator.SetFloat("Horizontal", x);
+        animator.SetFloat("Vertical", z);
 
         // Changes the height position of the player..
         if (Input.GetButtonDown("Jump") && groundedPlayer)
